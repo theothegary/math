@@ -1,18 +1,58 @@
-#best practice :
-#new file style css in them der ganze css sytle drin ist
-#style in the head 
-#structure in the body
-
 <!doctype html>
+<!-- die styles in diesen div teil des heads werden nur auf den div angewendet -->
 <html lang="en">
   <head>
     <title>testwebsite</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            font-weight: bold;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 10px;
+            background-color: lightgrey;
+            width: 1450px;
+            height: 200px;
+        }
+    </style>
   </head>
+
+
+
   <body >
     <script src="script.js"></script>
+
+
+    <div>
+    
     <h1 >The start of it all </h1>
     <h2>First things first</h2>
+    
+    </div>
+
+    <table>
+      <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>city</th>
+      </tr>
+      <tr>
+        <td>julia</td>
+        <td>16</td>
+        <td>berlin</td>
+      </tr>
+      <tr>
+        <td>max</td>
+        <td>17</td>
+        <td>hamburg</td>
+      </tr>
+
+
+
     <ol>
       <li>apfel</li>
       <li>orange</li>
@@ -44,9 +84,6 @@
 <input name="color" type="radio" value="blue">blue
       
     </form>
-
-      
-      
 
   </body>
 </html>
