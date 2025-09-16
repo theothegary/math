@@ -1,22 +1,25 @@
 
         h1 {
-            color: greenyellow;
+            color: lightsteelblue;
             text-align: center;
             font-family: verdana;
         }
         body {
             background-color: lightblue;
         }
-        div {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 28px;
-            font-weight: bold;
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #container > div {
+            background-color: springgreen;
+            font-size: 20px;
+            margin: 20;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
             border: 2px solid black;
-            margin: 20px;
-            padding: 10px;
-            background-color: lightgrey;
-            width: 1450px;
-            height: 400px;
         }
         table{
             border: 2px solid black;
@@ -26,4 +29,48 @@
             border: 1px solid black;
             padding:7px;
         }
+        #first{
+            background-color: purple;
+        }
+        .fol{
+            background-color: lightseagreen;
+        }
+        ul > li{
+            color: lightseagreen;
+        }
+        a  {
+            color: rebeccapurple;
+            text-decoration: none;
+        }
+        a[href="https://uhrensoehne.shop"] {
+            font-weight: bold;
+        }
+        a:hover {
+            color: rgb(76, 58, 156);
+            text-decoration: underline;
+        }
+        button {
+            background-color: lightgoldenrodyellow;
+            font-size: 20px;
+            border-radius: 7px;
+            padding: 10px;
+        }
+        button:hover {
+            background-color: gold;
+            cursor: pointer;
 
+
+
+
+        }
+        @media (min-width: 1100px) {
+            h1{
+                color: lightblue;
+            }
+
+        }
+        @media (max-width: 1099px) {
+            h1{
+                color: lightcoral;
+            }
+        }
