@@ -1,9 +1,29 @@
 
-    h1 {
-        color: greenyellow;
-        text-align: center;
-        font-family: verdana;
-    }
-    body {
-        background-color: lightblue;
-    }
+        h1 {
+            color: greenyellow;
+            text-align: center;
+            font-family: verdana;
+        }
+        body {
+            background-color: lightblue;
+        }
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            font-weight: bold;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 10px;
+            background-color: lightgrey;
+            width: 1450px;
+            height: 400px;
+        }
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;  
+        }
+        td,th{
+            border: 1px solid black;
+            padding:7px;
+        }
+
