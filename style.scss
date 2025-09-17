@@ -1,0 +1,14 @@
+$color :red;
+
+ul li{
+  color: $color;
+  font-size: 14px;
+}
+ol li{
+  color: $color;
+  font-size: 18px;
+}
+
+in following compile scss to css
+
+sass variables.scss:variables.css

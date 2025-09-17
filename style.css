@@ -21,6 +21,23 @@
             height: 150px;
             border: 2px solid black;
         }
+        #grid{
+            background-color: lightpink;
+            display: grid;
+            padding: 20px;
+            grid-column-gap: 20px;
+            grid-row-gap: 10px;
+            grid-template-columns: 200px 200px auto;
+            border: 2px solid black;
+        }
+        .grid-item{
+            background-color: lightyellow;
+            font-size: 20px;
+            padding: 20px;
+            margin: 5px;
+            text-align: center;
+            border: 2px solid black;
+        }
         table{
             border: 2px solid black;
             border-collapse: collapse;  
@@ -74,3 +91,5 @@
                 color: lightcoral;
             }
         }
+
+
